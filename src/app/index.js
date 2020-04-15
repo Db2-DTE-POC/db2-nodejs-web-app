@@ -284,5 +284,5 @@ router.get('/:userID', function (req, res) {
 console.log(__dirname);
 app.use('/', router);
 server.listen(8080, function () {
-    console.log('server' + server + ' listening on port 8080');
+    console.log('server' + app + ' listening on port 8080');
 });
